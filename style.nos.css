@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+    background-color: #708325;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    height: 120px;
+     align-items:center;
+
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+   
+}
+
+.sobre-bobibo{
+    background-color: #DECCBC;
+    color: black;
+    display:flex;
+  justify-content:right;
+   align-items:center;
+   padding: 34px 90px;
+   text-align: justify;
+   
+
+}
+.quem-somos-bobibo{
+    width: 50%;
+    font-size: larger;
+
+}
+.sobre-bobibo-titulo{
+    margin: 0em 0em 1em 9em;
+}
+.img{
+    width: 50%;
+    align-items:center;}
+
+.missao{ background-color: #DECCBC;
+    color: black;
+    display:flex;
+  justify-content:right;
+   align-items:center;
+   padding: 34px 90px;
+   }
+  .missao-conteudo{
+    text-align: justify;
+font-size: larger;
+ 
+  }
+  .trabalhe-conosco{
+    background-color: #DECCBC;
+    color: black;
+    display:flex;
+  justify-content:left;
+   align-items:center;
+   padding: 34px 90px; 
+  }
+  .trabalhe-conosco-p{
+
+    font-size: larger;
+ text-align: justify;
+  }
+
+ .cabecalho-lista li a:hover {
+    background-color:  #DECCBC; /* Cor de fundo ao passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */
+}
+.cabecalho-lista li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #708325; /* Cor da borda semelhante à da imagem */
+    border-radius: 20px; /* Bordas arredondadas */
+    color: #000000; /* Cor do texto */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+footer{
+    background-color: #708325;
+   color: rgb(0, 0, 0);
+   display: flex;
+   justify-content: space-around;
+   text-align: left;
+   height: 80px;
+   font-size: larger;
+   
+   }
+   .title{
+       font-size: larger;
+       margin: 1em 1em 1em 1em;
+   }   
+   .sobre-img{
+    width: 30%;
+    margin: 0  3em 0 0;
+   
+   }

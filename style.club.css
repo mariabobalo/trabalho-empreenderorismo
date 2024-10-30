@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+    background-color: #708325;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    height: 120px;
+     align-items:center;
+
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;}
+
+    .cabecalho-lista li a:hover {
+        background-color:  #DECCBC; /* Cor de fundo ao passar o mouse */
+        color: #fff; /* Cor do texto ao passar o mouse */
+    }
+    .cabecalho-lista li a {
+        text-decoration: none;
+        padding: 10px 20px;
+        border: 2px solid #708325; /* Cor da borda semelhante à da imagem */
+        border-radius: 20px; /* Bordas arredondadas */
+        color: #000000; /* Cor do texto */
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .informacaoinicial{
+        background-image: linear-gradient(#DECCBC, #DECCBC);
+        color: black;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+       padding: 34px 80px;
+        }
+        .informacaoinicial-title{
+          margin:  1em 0 1em 0;
+            
+        }
+        .informacaoinicial-text-1{
+            font-size: larger;
+            text-align: justify;
+              width: 97%;
+        }
+        .informacaoinicial-text-2{
+            font-size: larger;
+            width: 97%;
+            text-align: justify;
+        }
+        .informacaoinicial-image{
+            width: 1900px;
+        }
+       .plano-basico{
+        background-color:#DECCBC;
+        color: black; 
+        display:flex;
+        justify-content:left;
+        align-items: center;
+        padding: 34px 80px;
+    font-size: larger;
+       }
+      
+    footer{
+     background-color: #708325;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    height: 80px;
+    font-size: larger;
+    
+    }
+    .title{
+        font-size: larger;
+        margin: 1em 1em 1em 1em;
+    }
+    footer{
+        background-color: #708325;
+       color: rgb(0, 0, 0);
+       display: flex;
+       justify-content: space-around;
+       text-align: left;
+       height: 80px;
+       font-size: larger;
+       
+       }
+       .title{
+           font-size: larger;
+           margin: 1em 1em 1em 1em;
+       }

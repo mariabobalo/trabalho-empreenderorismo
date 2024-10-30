@@ -1,0 +1,168 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+    background-color: #708325;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    height: 120px;
+     align-items: center;
+    
+
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+   
+}
+.quem-somos{
+    background-image: linear-gradient(#DECCBC, #DECCBC);
+    color: black;
+    display:flex;
+  justify-content:right;
+   align-items:center;
+   padding: 34px 0;
+   
+}
+
+.quem-somos-div-conteudo{
+width: 50%;
+font-size:larger;
+}
+
+.quem-somos-img{
+    width: 400px;
+    justify-items:left;
+    margin:  1em 3em 2em 3em;
+}
+
+.quem-somos-titulo{
+    padding: 34px 30%;  
+    
+}
+.container__botao {
+    background-color:#708325;
+    border-radius: 50px;
+    padding: 1em;
+    color:black;
+    display:block;
+    width: 110px;
+   margin:  1em 0 2em 0;
+    
+}
+
+
+.opcoes-gastronomicas{
+    background-image: linear-gradient(#DECCBC, #DECCBC);
+    color: black;
+    display:flex;
+  justify-content:left;
+   align-items:start;
+   padding: 10px 0px;
+}
+
+.opcoes-gastronomicas-div-imagem{
+    width: 180px;
+    display:grid;
+    padding: 40px 0px;
+    grid-template-columns: 180% 180% 180% 180%;
+   align-items:center;
+   justify-items: left;
+   
+}
+.container__botao-1{
+    background-color:#708325;
+    border-radius: 50px;
+    padding: 1em;
+    color:black;
+    display:block;
+    width: 110px;
+}
+.clubedeleitura{
+    background-image: linear-gradient(#DECCBC, #DECCBC);
+    color: black; 
+    display:flex;
+    justify-content:left;
+    align-items: center;
+     padding: 34px 100px;
+     
+}
+.clubedeleitura-div-conteudo{
+    width: 35%;
+    font-size:larger;
+    margin: 0em 10em 0em 10em;
+}
+
+.container__botao-2{
+    background-color:#708325;
+    border-radius: 50px;
+    padding: 1em;
+    color:black;
+    display:block;
+    width: 200px;
+   justify-content:right;
+   margin:  1em 0 2em 0;
+}
+.biblioteca{
+    background-image: linear-gradient(#DECCBC, #DECCBC);
+    color: black; 
+    display:flex;
+    justify-content: left;
+    align-items: left;
+     padding: 34px 100px;
+}
+.biblioteca-div-livro{
+    width: 130px;
+    display:grid;
+    padding: 40px 0px;
+    grid-template-columns: 180% 180% 180% 180% 180%;
+   align-items:center;
+   justify-items:left;
+}
+.container__botao-3{
+    background-color:#708325;
+    border-radius: 50px;
+    padding: 1em;
+    color:black;
+    display:block;
+    width: 100px;
+   justify-content:right;
+   margin:  1em 0 2em 0;
+
+}
+.bibloteca-text{
+    width: 500%;
+    font-size:larger;
+    text-align: justify;
+}
+.cabecalho-lista li a:hover {
+    background-color:  #DECCBC; /* Cor de fundo ao passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */
+}
+.cabecalho-lista li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #708325; /* Cor da borda semelhante à da imagem */
+    border-radius: 20px; /* Bordas arredondadas */
+    color: #000000; /* Cor do texto */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+footer{
+    background-color: #708325;
+   color: rgb(0, 0, 0);
+   display: flex;
+   justify-content: space-around;
+   text-align: left;
+   height: 80px;
+   font-size: larger;
+   
+   }
+   .title{
+       font-size: larger;
+       margin: 1em 1em 1em 1em;
+   }

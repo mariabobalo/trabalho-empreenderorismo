@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecalho{
+    background-color: #708325;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    height: 120px;
+     align-items:center;
+
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;}
+
+    .cabecalho-lista li a:hover {
+        background-color:  #DECCBC; /* Cor de fundo ao passar o mouse */
+        color: #fff; /* Cor do texto ao passar o mouse */
+    }
+    .cabecalho-lista li a {
+        text-decoration: none;
+        padding: 10px 20px;
+        border: 2px solid #708325; /* Cor da borda semelhante à da imagem */
+        border-radius: 20px; /* Bordas arredondadas */
+        color: #000000; /* Cor do texto */
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .menu { 
+        background-color:#DECCBC;
+        padding: 30px;
+    }
+    
+    h1 {
+        text-align: start;
+        color: #333;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .menu-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 10px;
+    }
+    
+    .menu-item img {
+        width: 100px;
+        height: 100px;
+        border-radius: 8px;
+        margin-right: 20px;
+    }
+    
+    .item-details {
+        flex: 1;
+    }
+    
+    h2 {
+        margin: 0;
+        color: #333;
+    }
+    
+    p {
+        margin: 5px 0;
+        color: #666;
+    }
+    
+    .price {
+        font-size: 1.2em;
+        color:#a4978c;
+        font-weight: bold;
+    }
+    footer{
+        background-color: #708325;
+       color: rgb(0, 0, 0);
+       display: flex;
+       justify-content: space-around;
+       text-align: left;
+       height: 80px;
+       font-size: larger;
+       
+       }
+       .title{
+           font-size: larger;
+           margin: 1em 1em 1em 1em;
+       }
